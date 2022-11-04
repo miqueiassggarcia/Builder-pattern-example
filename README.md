@@ -8,8 +8,14 @@
 
 Código criado no estudo do padrão de projeto Builder.
 
-* ``javac .\gerenciador\*.java .\carros\*.java .\componentes\*.java .\construtores\*.java`` para compilar todas as dependências.
+Execute na raiz do projeto, para compilar as dependẽncias:
+```
+javac .\gerenciador\*.java .\carros\*.java .\componentes\*.java .\construtores\*.java
+```
 
-* ``java .\gerenciador\Main.java`` para compilar o arquivo principal
+Para executar o projeto:
+```
+java .\gerenciador\Main.java
+```
 
 Link do site usado para criar <https://refactoring.guru/design-patterns/builder/java/example>
