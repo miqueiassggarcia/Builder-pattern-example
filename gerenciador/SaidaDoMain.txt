@@ -1,0 +1,15 @@
+Compilar:
+javac .\gerenciador\*.java .\carros\*.java .\componentes\*.java .\construtores\*.java
+java .\gerenciador\Main.java
+
+Saida esperada:
+Carro construido:
+CARRO_SPORT
+
+Carro construido manualmente:
+Tipo de carro: CARRO_SPORT
+Quantidade de assentos: 2
+Motor: volume - 3.0; quilometragem - 0.0
+TransmissÃ£o: SEMI_AUTOMATICA
+Computador de bordo: Funcional
+Navegador GPS: Funcional
