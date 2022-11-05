@@ -9,13 +9,26 @@
 Código criado no estudo do padrão de projeto Builder.
 
 Execute na raiz do projeto, para compilar as dependẽncias:
+
+Windows
 ```
 javac .\gerenciador\*.java .\carros\*.java .\componentes\*.java .\construtores\*.java
 ```
+Linux
+```
+javac ./gerenciador/*.java ./carros/*.java ./componentes/*.java ./construtores/*.java
+```
 
 Para executar o projeto:
+
+Windows
 ```
 java .\gerenciador\Main.java
+```
+
+Linux
+```
+java ./gerenciador/Main.java
 ```
 
 Link do site usado para criar <https://refactoring.guru/design-patterns/builder/java/example>
